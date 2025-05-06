@@ -10,6 +10,11 @@ public class PatientAppointment {
         this.appointmentTime = appointmentTime;
     }
 
+    public String getAppointmentTime() {
+        return appointmentTime;
+    }
+
+
     @Override
     public String toString() {
         return patientID + ", " + patientName + ", " + appointmentTime;
